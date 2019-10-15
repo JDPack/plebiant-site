@@ -6,7 +6,7 @@ import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 import Social from '../components/Social';
 
-import demo1 from '../assets/images/demo-screen-1.jpg';
+import demo1 from '../assets/images/logo_black.png';
 import gplay from '../assets/images/google-play-badge.svg';
 import astore from '../assets/images/app-store-badge.svg';
 
@@ -20,8 +20,7 @@ const IndexPage = () => (
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
               <h1 className="mb-5">
-                New Age is an gatsby starter for app landing page that will help
-                you beautifully showcase your new mobile app, or anything else!
+
               </h1>
               <Scroll type="id" element="download">
                 <a href="#download" className="btn btn-outline btn-xl">
@@ -32,30 +31,24 @@ const IndexPage = () => (
           </div>
           <div className="col-lg-5 my-auto">
             <div className="device-container">
-              <div className="device-mockup iphone6_plus portrait white">
-                <div className="device">
-                  <div className="screen">
-                    <img src={demo1} className="img-fluid" alt="" />
-                  </div>
+                  <img src={demo1} className="img-fluid" alt="" />
                   <div className="button"></div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <section className="download bg-primary text-center" id="download">
-      <div className="container">
+    <section className="download bg-primary text-center" id="about">
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-md-8 mx-auto">
+          <div className="col-md-12 mx-auto">
             <h2 className="section-heading">
-              Discover what all the buzz is about!
+              Deviant Applications. Built for Plebeians.
             </h2>
             <p>
-              Our app is available on any mobile device! Download now to get
-              started!
+              We are a small team working on games that are both interesting and fun to play. Feel free to take a look below!
+
             </p>
             <div className="badges">
               <a className="badge-link" href="/#">
