@@ -6,6 +6,7 @@ import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 import Social from '../components/Social';
 
+import pslogo from '../assets/images/plebiantstudios_logo.png';
 import demo1 from '../assets/images/logo_black.png';
 import gplay from '../assets/images/google-play-badge.svg';
 import astore from '../assets/images/app-store-badge.svg';
@@ -17,60 +18,88 @@ const IndexPage = () => (
     <header className="masthead">
       <div className="container h-100">
         <div className="row h-100">
-          <div className="col-lg-7 my-auto">
-            <div className="header-content mx-auto">
-              <h1 className="mb-5">
-
-              </h1>
-              <Scroll type="id" element="download">
-                <a href="#download" className="btn btn-outline btn-xl">
-                  Start Now for Free!
-                </a>
-              </Scroll>
-            </div>
-          </div>
-          <div className="col-lg-5 my-auto">
-            <div className="device-container">
-                  <img src={demo1} className="img-fluid" alt="" />
-                  <div className="button"></div>
-            </div>
+          <div className="col-md-12 my-auto">
+            <img src={demo1} className="img-fluid w-25 mx-auto d-block" alt="" />
+            <h1 className="section-heading text-center font-weight-bold">
+              PLEBIANT STUDIOS
+            </h1>
+            <p className="text-center">Deviant Applications. Built for Plebeians.</p>
           </div>
         </div>
       </div>
     </header>
 
-    <section className="download bg-primary text-center" id="about">
+    <section className="download bg-primary text-center vh-100" id="about">
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-12 mx-auto">
             <h2 className="section-heading">
-              Deviant Applications. Built for Plebeians.
+              About Us
             </h2>
             <p>
-              We are a small team working on games that are both interesting and fun to play. Feel free to take a look below!
-
+              We are a small team of developers working on games that are both interesting and fun to play. 
             </p>
-            <div className="badges">
-              <a className="badge-link" href="/#">
-                <img src={gplay} alt="" />
-              </a>
-              <a className="badge-link" href="/#">
-                <img src={astore} alt="" />
-              </a>
-            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section className="features" id="features">
+    <section className="team" id="team">
       <div className="container">
         <div className="section-heading text-center">
-          <h2>Unlimited Features, Unlimited Fun</h2>
-          <p className="text-muted">
-            Check out what you can do with this app theme!
-          </p>
+          <h2>Meet the Team</h2>
           <hr />
+        </div>
+        <div className="row my-4">
+          <div className="col-lg-12">
+              <div className="row">
+                <div className="col-lg-6">
+                  <div className="feature-item">
+                    <i class="fas fa-user-circle fa-9x mx-auto d-block my-2 text-center"></i>
+                    <h3 class="text-center">Logan Ames</h3>
+                    <p className="text-muted">
+                      Bio here
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="feature-item">
+                    <i class="fas fa-user-circle fa-9x mx-auto d-block my-2 text-center"></i>
+                    <h3 class="text-center">Matt McClelland</h3>
+                    <p className="text-muted">
+                      Bio here
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="feature-item">
+                    <i class="fas fa-user-circle fa-9x mx-auto d-block my-2 text-center"></i>
+                    <h3 class="text-center">JD Pack</h3>
+                    <p className="text-muted">
+                      Bio here
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="feature-item">
+                    <i class="fas fa-user-circle fa-9x mx-auto d-block my-2 text-center"></i>
+                    <h3 class="text-center">Alexandra Ames</h3>
+                    <p className="text-muted">
+                      Bio here
+                    </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className="games bg-dark" id="games">
+      <div className="container">
+        <div className="section-heading text-center text-light">
+          <h2>The Games</h2>
+          <hr className="bg-light" />
         </div>
         <div className="row">
           <div className="col-lg-4 my-auto">
@@ -130,6 +159,14 @@ const IndexPage = () => (
                     </p>
                   </div>
                 </div>
+                <div className="badges">
+              <a className="badge-link" href="/#">
+                <img src={gplay} alt="" />
+              </a>
+              <a className="badge-link" href="/#">
+                <img src={astore} alt="" />
+              </a>
+            </div>
               </div>
             </div>
           </div>

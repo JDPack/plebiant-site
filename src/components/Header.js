@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import config from '../../config';
 import Scroll from './Scroll';
+
+import PSLogo from '../assets/images/plebiantstudios_logo.png'
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -41,7 +43,7 @@ export default class Header extends Component {
       >
         <div className="container">
           <a className="navbar-brand" href="#page-top">
-            {config.siteTitle}
+            <img src={PSLogo} height={64}/>
           </a>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
@@ -88,9 +90,9 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="download"
+                  element="games"
                 >
-                  <a className="nav-link" href="#download">
+                  <a className="nav-link" href="#games">
                     Games
                   </a>
                 </Scroll>
