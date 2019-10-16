@@ -16,7 +16,7 @@ const IndexPage = () => (
     <Header />
 
     <header className="masthead">
-      <div className="container h-100">
+      <div className="container vh-100">
         <div className="row h-100">
           <div className="col-md-12 my-auto">
             <img src={demo1} className="img-fluid w-25 mx-auto d-block" alt="" />
@@ -48,7 +48,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="section-heading text-center">
           <h2>Meet the Team</h2>
-          <hr />
+          <hr className="bg-dark" />
         </div>
         <div className="row my-4">
           <div className="col-lg-12">
@@ -57,6 +57,7 @@ const IndexPage = () => (
                   <div className="feature-item">
                     <i class="fas fa-user-circle fa-9x mx-auto d-block my-2 text-center"></i>
                     <h3 class="text-center">Logan Ames</h3>
+                    <h5 class="text-center text-muted">Cofounder, Developer</h5>
                     <p className="text-muted">
                       Bio here
                     </p>
@@ -66,6 +67,7 @@ const IndexPage = () => (
                   <div className="feature-item">
                     <i class="fas fa-user-circle fa-9x mx-auto d-block my-2 text-center"></i>
                     <h3 class="text-center">Matt McClelland</h3>
+                    <h5 class="text-center text-muted">Cofounder, Developer</h5>
                     <p className="text-muted">
                       Bio here
                     </p>
@@ -75,6 +77,7 @@ const IndexPage = () => (
                   <div className="feature-item">
                     <i class="fas fa-user-circle fa-9x mx-auto d-block my-2 text-center"></i>
                     <h3 class="text-center">JD Pack</h3>
+                    <h5 class="text-center text-muted">Cofounder, Developer</h5>
                     <p className="text-muted">
                       Bio here
                     </p>
@@ -84,6 +87,7 @@ const IndexPage = () => (
                   <div className="feature-item">
                     <i class="fas fa-user-circle fa-9x mx-auto d-block my-2 text-center"></i>
                     <h3 class="text-center">Alexandra Ames</h3>
+                    <h5 class="text-center text-muted">Cofounder, Graphic Designer</h5>
                     <p className="text-muted">
                       Bio here
                     </p>
@@ -98,7 +102,7 @@ const IndexPage = () => (
     <section className="games bg-dark" id="games">
       <div className="container">
         <div className="section-heading text-center text-light">
-          <h2>The Games</h2>
+          <h2>Games</h2>
           <hr className="bg-light" />
         </div>
         <div className="row">
