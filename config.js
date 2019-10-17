@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'PLEBIANT GAMES', // <title>
+  siteTitle: 'Plebiant Studios', // <title>
   manifestName: 'plebiant',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',

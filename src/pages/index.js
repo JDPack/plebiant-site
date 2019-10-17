@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 import Social from '../components/Social';
+import AppIcon from '../components/AppIcon';
 
 import pslogo from '../assets/images/plebiantstudios_logo.png';
 import demo1 from '../assets/images/logo_black.png';
@@ -23,13 +24,13 @@ const IndexPage = () => (
             <h1 className="section-heading text-center font-weight-bold">
               PLEBIANT STUDIOS
             </h1>
-            <p className="text-center">Deviant Applications. Built for Plebeians.</p>
+            <p className="text-center">Deviant Games. Built for Plebeians.</p>
           </div>
         </div>
       </div>
     </header>
 
-    <section className="download bg-primary text-center vh-100" id="about">
+    <section className="about text-center" id="about">
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-12 mx-auto">
@@ -105,8 +106,23 @@ const IndexPage = () => (
           <h2>Games</h2>
           <hr className="bg-light" />
         </div>
-        <div className="row">
-          <div className="col-lg-4 my-auto">
+        <div className="row no-gutters">
+          <div className="app-showcase">
+            <AppIcon size={12} />
+            <AppIcon size={6} />
+            <AppIcon size={6} />
+            <AppIcon size={4} />            
+            <AppIcon size={4} />
+            <AppIcon size={4} />
+            <AppIcon size={3} />
+            <AppIcon size={3} />  
+            <AppIcon size={3} />
+            <AppIcon size={3} />
+            <AppIcon size={8} />
+            <AppIcon size={4} />  
+          </div>
+        
+          {/* <div className="col-lg-2 my-auto mx-auto">
             <div className="device-container">
               <div className="device-mockup iphone6_plus portrait white">
                 <div className="device">
@@ -173,7 +189,7 @@ const IndexPage = () => (
             </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
@@ -199,9 +215,9 @@ const IndexPage = () => (
     <section className="contact bg-primary" id="contact">
       <div className="container">
         <h2>
-          We
+          We&nbsp;
           <i className="fas fa-heart"></i>
-          new friends!
+          &nbsp;new friends!
         </h2>
         <Social />
       </div>

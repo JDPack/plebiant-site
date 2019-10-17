@@ -1,0 +1,379 @@
+.app-showcase {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .app-icon {
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+        align-self: center;
+        background-color: 'green';
+
+        &.app-icon-rounded {
+            position: relative;
+            border-radius: 45px;
+            border: 1px solid rgba(0,0,0,.1);
+            overflow: hidden;
+
+            // width: 48em;
+            // height: 48em;
+
+            img {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                height: 100%;
+                width: auto;
+                -webkit-transform: translate(-50%,-50%);
+                    -ms-transform: translate(-50%,-50%);
+                        transform: translate(-50%,-50%);
+            }
+        }
+    }
+}
+
+#DIV_1 {
+    height: 272px;
+    min-height: auto;
+    min-width: auto;
+    text-align: center;
+    text-size-adjust: 100%;
+    width: 280px;
+    perspective-origin: 140px 136px;
+    transform-origin: 140px 136px;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 50px 0px 0px;
+}/*#DIV_1*/
+
+#DIV_1:after {
+    min-height: auto;
+    min-width: auto;
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#DIV_1:after*/
+
+#DIV_1:before {
+    min-height: auto;
+    min-width: auto;
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#DIV_1:before*/
+
+#DIV_2 {
+    cursor: pointer;
+    height: 200px;
+    text-align: center;
+    text-size-adjust: 100%;
+    width: 200px;
+    perspective-origin: 100px 100px;
+    transform-origin: 100px 100px;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px 40px;
+}/*#DIV_2*/
+
+#DIV_2:after {
+    cursor: pointer;
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#DIV_2:after*/
+
+#DIV_2:before {
+    cursor: pointer;
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#DIV_2:before*/
+
+#IMG_3 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px 0px;
+    cursor: pointer;
+    height: 200px;
+    max-width: 100%;
+    text-align: center;
+    text-size-adjust: 100%;
+    width: 200px;
+    perspective-origin: 100px 100px;
+    transform-origin: 100px 100px;
+    border-radius: 45px 45px 45px 45px;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: all 0.4s ease 0s;
+}/*#IMG_3*/
+
+#IMG_3:after {
+    cursor: pointer;
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#IMG_3:after*/
+
+#IMG_3:before {
+    cursor: pointer;
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#IMG_3:before*/
+
+#DIV_4 {
+    height: 52px;
+    text-align: center;
+    text-size-adjust: 100%;
+    width: 280px;
+    perspective-origin: 140px 26px;
+    transform-origin: 140px 26px;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#DIV_4*/
+
+#DIV_4:after {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#DIV_4:after*/
+
+#DIV_4:before {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#DIV_4:before*/
+
+#H4_5 {
+    height: 24px;
+    text-align: center;
+    text-size-adjust: 100%;
+    width: 280px;
+    perspective-origin: 140px 12px;
+    transform-origin: 140px 12px;
+    font: normal normal 700 normal 20px / 24px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 20px 0px 0px;
+    transition: all 0.4s ease 0s;
+}/*#H4_5*/
+
+#H4_5:after {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 700 normal 20px / 24px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#H4_5:after*/
+
+#H4_5:before {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 700 normal 20px / 24px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#H4_5:before*/
+
+#DIV_6 {
+    height: 28px;
+    text-align: center;
+    text-size-adjust: 100%;
+    width: 280px;
+    perspective-origin: 140px 14px;
+    transform-origin: 140px 14px;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: all 0.4s ease 0s;
+}/*#DIV_6*/
+
+#DIV_6:after {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#DIV_6:after*/
+
+#DIV_6:before {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#DIV_6:before*/
+
+#A_7 {
+    background-position: 0px 0px;
+    color: rgb(238, 53, 15);
+    text-align: center;
+    text-decoration: none solid rgb(238, 53, 15);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(238, 53, 15);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    caret-color: rgb(238, 53, 15);
+    background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px / auto padding-box border-box;
+    border: 0px none rgb(238, 53, 15);
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(238, 53, 15) none 0px;
+}/*#A_7*/
+
+#A_7:after {
+    color: rgb(238, 53, 15);
+    text-align: center;
+    text-decoration: none solid rgb(238, 53, 15);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(238, 53, 15);
+    caret-color: rgb(238, 53, 15);
+    border: 0px none rgb(238, 53, 15);
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(238, 53, 15) none 0px;
+}/*#A_7:after*/
+
+#A_7:before {
+    color: rgb(238, 53, 15);
+    text-align: center;
+    text-decoration: none solid rgb(238, 53, 15);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(238, 53, 15);
+    caret-color: rgb(238, 53, 15);
+    border: 0px none rgb(238, 53, 15);
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(238, 53, 15) none 0px;
+}/*#A_7:before*/
+
+#DIV_8, #DIV_13, #DIV_15, #DIV_17 {
+    display: none;
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#DIV_8, #DIV_13, #DIV_15, #DIV_17*/
+
+#DIV_8:after, #DIV_13:after, #DIV_15:after, #DIV_17:after {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#DIV_8:after, #DIV_13:after, #DIV_15:after, #DIV_17:after*/
+
+#DIV_8:before, #DIV_13:before, #DIV_15:before, #DIV_17:before {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#DIV_8:before, #DIV_13:before, #DIV_15:before, #DIV_17:before*/
+
+#P_9, #P_14 {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 16px 0px;
+}/*#P_9, #P_14*/
+
+#P_9:after, #P_14:after {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#P_9:after, #P_14:after*/
+
+#P_9:before, #P_14:before {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#P_9:before, #P_14:before*/
+
+#A_10, #A_11, #A_16 {
+    background-position: 0px 0px;
+    color: rgb(238, 53, 15);
+    text-align: center;
+    text-decoration: none solid rgb(238, 53, 15);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(238, 53, 15);
+    caret-color: rgb(238, 53, 15);
+    background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px / auto padding-box border-box;
+    border: 0px none rgb(238, 53, 15);
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(238, 53, 15) none 0px;
+}/*#A_10, #A_11, #A_16*/
+
+#A_10:after, #A_11:after, #A_16:after {
+    color: rgb(238, 53, 15);
+    text-align: center;
+    text-decoration: none solid rgb(238, 53, 15);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(238, 53, 15);
+    caret-color: rgb(238, 53, 15);
+    border: 0px none rgb(238, 53, 15);
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(238, 53, 15) none 0px;
+}/*#A_10:after, #A_11:after, #A_16:after*/
+
+#A_10:before, #A_11:before, #A_16:before {
+    color: rgb(238, 53, 15);
+    text-align: center;
+    text-decoration: none solid rgb(238, 53, 15);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(238, 53, 15);
+    caret-color: rgb(238, 53, 15);
+    border: 0px none rgb(238, 53, 15);
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(238, 53, 15) none 0px;
+}/*#A_10:before, #A_11:before, #A_16:before*/
+
+#A_12 {
+    background-position: 0px 0px;
+    color: rgb(238, 53, 15);
+    text-align: center;
+    text-decoration: none solid rgb(238, 53, 15);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(238, 53, 15);
+    caret-color: rgb(238, 53, 15);
+    background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px / auto padding-box border-box;
+    border: 0px none rgb(238, 53, 15);
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(238, 53, 15) none 0px;
+}/*#A_12*/
+
+#A_12:after {
+    color: rgb(238, 53, 15);
+    text-align: center;
+    text-decoration: none solid rgb(238, 53, 15);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(238, 53, 15);
+    caret-color: rgb(238, 53, 15);
+    border: 0px none rgb(238, 53, 15);
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(238, 53, 15) none 0px;
+}/*#A_12:after*/
+
+#A_12:before {
+    color: rgb(238, 53, 15);
+    text-align: center;
+    text-decoration: none solid rgb(238, 53, 15);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(238, 53, 15);
+    caret-color: rgb(238, 53, 15);
+    border: 0px none rgb(238, 53, 15);
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(238, 53, 15) none 0px;
+}/*#A_12:before*/
+
+#IMG_18, #IMG_19, #IMG_21, #IMG_23 {
+    max-width: 100%;
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#IMG_18, #IMG_19, #IMG_21, #IMG_23*/
+
+#IMG_18:after, #IMG_19:after, #IMG_21:after, #IMG_23:after {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#IMG_18:after, #IMG_19:after, #IMG_21:after, #IMG_23:after*/
+
+#IMG_18:before, #IMG_19:before, #IMG_21:before, #IMG_23:before {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#IMG_18:before, #IMG_19:before, #IMG_21:before, #IMG_23:before*/
+
+#IMG_20, #IMG_22 {
+    max-width: 100%;
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#IMG_20, #IMG_22*/
+
+#IMG_20:after, #IMG_22:after {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#IMG_20:after, #IMG_22:after*/
+
+#IMG_20:before, #IMG_22:before {
+    text-align: center;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 16px / 28px Sailec, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}/*#IMG_20:before, #IMG_22:before*/
+
