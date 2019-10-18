@@ -12,6 +12,11 @@ import demo1 from '../assets/images/logo_black.png';
 import gplay from '../assets/images/google-play-badge.svg';
 import astore from '../assets/images/app-store-badge.svg';
 
+import FowlFlowIcon from '../assets/games/fowl-flow/fowl-flow-icon.png';
+import MeteorMazeIcon from '../assets/games/meteor-maze/meteor-maze-icon.png';
+import TrashyPawsIcon from '../assets/games/trashy-paws/trashy-paws-icon.png';
+
+
 const IndexPage = () => (
   <Layout>
     <Header />
@@ -108,18 +113,12 @@ const IndexPage = () => (
         </div>
         <div className="row no-gutters">
           <div className="app-showcase">
-            <AppIcon size={12} />
-            <AppIcon size={6} />
-            <AppIcon size={6} />
-            <AppIcon size={4} />            
-            <AppIcon size={4} />
-            <AppIcon size={4} />
-            <AppIcon size={3} />
-            <AppIcon size={3} />  
-            <AppIcon size={3} />
-            <AppIcon size={3} />
-            <AppIcon size={8} />
-            <AppIcon size={4} />  
+            <AppIcon size={4} title={"Fowl Flow"} icon={FowlFlowIcon}
+            subtitle={"An action game where a brave duck has to avoid peril and find a bite to eat."} />
+            <AppIcon size={4} title={"Meteor Maze"} icon={MeteorMazeIcon}
+            subtitle={"Are you meta? Can you fly your ship to the wormhole in the shortest distance?"} />
+            <AppIcon size={4} title={"Trashy Paws"} icon={TrashyPawsIcon}
+            subtitle={"Coming soon!"} />
           </div>
         
           {/* <div className="col-lg-2 my-auto mx-auto">

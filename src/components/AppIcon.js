@@ -1,15 +1,36 @@
 import React from 'react';
 import config from '../../config';
 import classnames from 'classnames';
+import gplay from '../assets/images/google-play-badge.svg';
+import astore from '../assets/images/app-store-badge.svg';
 
 
 const AppIcon = (props) => {
-    const colSize = 'col-lg-' + props.size;
-    const iconSize = props.size;
+
+    const { title, subtitle, size, icon } = props;
+
+    const colSize = 'col-lg-' + size;
+    const iconSize = 'app-icon-' + size;
     return (
         <div className={[colSize, 'my-5 text-center'].join(' ')}>
-            <div className="app-icon app-icon-rounded">
-                <img className="" src="http://jd-pack.com/home/img/places/thumbnails/3.jpg"/>
+            <div className={["app-icon app-icon-rounded", iconSize].join(' ')}>
+                <img className="" src={icon} />
+            </div>
+            <div className="app-info m-2">
+                <h3 className="text-light">{title}</h3>
+                <p className="text-muted">{subtitle}</p>
+                {/* <div className="row badges">
+                    <div className="col-lg-8 mx-auto">
+                        <a className="badge-link" href="/#">
+                            <img src={gplay} alt="" />
+                        </a>
+                        <a className="badge-link" href="/#">
+                            <img src={astore} alt="" />
+                        </a>
+                        </div>
+                </div> */}
+            </div>
+
                 {/* <div class="app-info"><h4>PricePoint</h4>
                     <div class="app-author">by&nbsp;<a href="https://banakin.github.io/" target="_blank" sl-processed="1">Banakin</a>
                     </div>
@@ -35,7 +56,6 @@ const AppIcon = (props) => {
                                 </div>
                             </div>
                     </div> */}
-                    </div>
         </div>
     );
 }

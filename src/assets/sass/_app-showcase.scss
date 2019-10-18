@@ -1,22 +1,47 @@
+.app-showcase, .app-icon, .app-info {
+    transition: .277s;
+}
+
 .app-showcase {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    flex: 1;
     .app-icon {
         margin-left: auto;
         margin-right: auto;
         cursor: pointer;
         align-self: center;
         background-color: 'green';
+        &:hover {
+            box-shadow: 0 20px 40px rgba(0,0,0,.1);
+            transform: scale(1.05);
+        }
 
         &.app-icon-rounded {
             position: relative;
-            border-radius: 45px;
             border: 1px solid rgba(0,0,0,.1);
             overflow: hidden;
-
-            // width: 48em;
-            // height: 48em;
+            &.app-icon-12 {
+                width: 300px;
+                height: 300px;
+                border-radius: 45px;
+            }
+            &.app-icon-6, .app-info {
+                width: 200px;
+                height: 200px;
+                border-radius: 35px;
+            }
+            &.app-icon-4 {
+                width: 200px;
+                height: 200px;
+                border-radius: 25px;
+            }
+            &.app-icon-3 {
+                width: 100px;
+                height: 100px;
+                border-radius: 20px;
+            }
 
             img {
                 position: absolute;
@@ -30,6 +55,10 @@
             }
         }
     }
+}
+
+.app-icon:hover~.app-info {
+    transform: translateY(10px);
 }
 
 #DIV_1 {
