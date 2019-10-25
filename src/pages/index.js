@@ -116,7 +116,7 @@ const IndexPage = () => (
             <AppIcon size={4} title={"Fowl Flow"} icon={FowlFlowIcon}
             subtitle={"An action game where a brave duck has to avoid peril and find a bite to eat."} />
             <AppIcon size={4} title={"Meteor Maze"} icon={MeteorMazeIcon}
-            subtitle={"Are you meta? Can you fly your ship to the wormhole in the shortest distance?"} />
+            subtitle={"Can you fly your ship to the wormhole in the least amount of moves?"} />
             <AppIcon size={4} title={"Trashy Paws"} icon={TrashyPawsIcon}
             subtitle={"Coming soon!"} />
           </div>
@@ -193,7 +193,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="cta">
+    {/* <section className="cta">
       <div className="cta-content">
         <div className="container">
           <h2>
@@ -209,20 +209,25 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="overlay"></div>
-    </section>
+    </section> */}
 
-    <section className="contact bg-primary" id="contact">
+    <section className="contact" id="contact">
       <div className="container">
-        <h2>
+      <div className="section-heading text-center text-light">
+          <h2>Find Us On</h2>
+        {/* <h2>
           We&nbsp;
           <i className="fas fa-heart"></i>
           &nbsp;new friends!
-        </h2>
+        </h2> */}
+        {/* <Social /> */}
         <Social />
+      </div>
       </div>
     </section>
 
     <Footer />
+
   </Layout>
 );
 

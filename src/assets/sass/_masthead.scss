@@ -5,7 +5,9 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-
+  .full-height {
+    height: 100vh;
+  }
   color: black;
   background: $theme-secondary;
   background: -webkit-linear-gradient(to top, $theme-secondary, $theme-tertiary);
@@ -33,8 +35,7 @@ header.masthead {
     }
   }
   @media (min-width: 992px) {
-    height: 100vh;
-    min-height: 775px;
+    min-height: 200px;
     padding-top: 0;
     padding-bottom: 0;
     .header-content {

@@ -7,7 +7,7 @@ export default function Footer() {
         <p>&copy; Plebiant 2019. All Rights Reserved.</p>
         <ul className="list-inline">
           <li className="list-inline-item">
-            <a href="/#">Privacy</a>
+            <a href="/privacy-policy">Privacy</a>
           </li>
           <li className="list-inline-item">
             <a href="/#">Terms</a>
