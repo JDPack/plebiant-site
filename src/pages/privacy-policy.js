@@ -16,18 +16,19 @@ const PrivacyPolicyPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-12 mx-auto">
-            <h1 className="section-heading font-weight-bold">
+          <p style={{fontSize: 48}}><span className="section-heading font-weight-bold">
               PRIVACY POLICY
-            </h1>
-            <p className="text-muted">Last updated <b>Septeber 4, 2019</b></p>
+            </span>
+            <p className="text-muted">Last updated <b>October 25, 2019</b></p>
+            </p>
             <br />
             <br />
             <span>
-            Thank you for choosing to be part of our community at Plebiant LLC (“<b>Company”</b>, “<b>we</b>”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our notice, or our practices with regards to your personal information, please contact us at privacy@plebiant.com. 
+            Thank you for choosing to be part of our community at Plebiant LLC (“<b>Company”</b>, “<b>we</b>”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our notice, or our practices with regards to your personal information, please contact us at <a href="mailto:privacy@plebiant.com">privacy@plebiant.com</a>. 
 
-When you visit our website plebiant.com, mobile application, and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Sites or Apps and our services. 
+When you visit our website plebiant.com, mobile games created by Plebiant LLC, and use any of our services, you trust us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Sites or Apps and our services. 
 
-This privacy notice applies to all information collected through our website (such as plebiant.com), mobile application, ("<b>Apps</b>", "<b>Games</b>"), and/or any related services, sales, marketing or events (we refer to them collectively in this privacy notice as the "<b>Services</b>").  
+This privacy notice applies to all information collected through our website (such as plebiant.com), mobile applications, ("<b>Apps</b>", "<b>Games</b>"), and/or any related services, sales, marketing or events (we refer to them collectively in this privacy notice as the "<b>Services</b>").  
 <br /><br />
 <b>Please read this privacy notice carefully as it will help you make informed decisions about sharing your personal information with us.</b>
             </span>
@@ -40,7 +41,7 @@ This privacy notice applies to all information collected through our website (su
             <br /><a href="#privacy-use"><span>2. HOW DO WE USE YOUR INFORMATION?</span></a>
             <br /><a href="#privacy-share"><span>3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?    </span></a>
             <br /><a href="#privacy-track"><span>4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?   </span></a>
-            <br /><a href="#privacy-gms"><span>5. DO WE USE GOOGLE MAPS?     </span></a>
+            <br /><a href="#privacy-geolocation"><span>5. DO WE USE GEOLOCATION SERVICES?     </span></a>
             <br /><a href="#privacy-expire"><span>6. HOW LONG DO WE KEEP YOUR INFORMATION?   </span></a>
             <br /><a href="#privacy-security"><span>7. HOW DO WE KEEP YOUR INFORMATION SAFE?   </span></a>
             <br /><a href="#privacy-rights"><span>8. WHAT ARE YOUR PRIVACY RIGHTS?</span></a>
@@ -148,7 +149,104 @@ If you use our Apps, we may also collect the following information:</em></p>
               </li>
             </ul>
             </p>
-              
+
+            <br /><p id="privacy-track" style={{fontSize: 24}}><span className="section-heading font-weight-bold">
+            4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?  
+            </span></p>
+
+            <p><strong><em>In Short:</em></strong> <em>We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations.</em>
+            <br />We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Policy.
+            </p>
+
+            <br /><p id="privacy-geolocation" style={{fontSize: 24}}><span className="section-heading font-weight-bold">
+            5. DO WE USE GOOGLE MAPS OR OTHER GEOLOCATION SERVICES?  
+            </span></p>
+
+            <p><strong><em>In Short:</em></strong> <em>Yes, we may use Google Maps or other geolocation services for the purpose of providing a better mobile gaming experience.</em>
+            <br />This website, mobile application, or Facebook application uses geolocation services such as Google Maps APIs. You may find the Google Maps APIs Terms of Service <a href="https://developers.google.com/maps/terms">here</a>. To better understand Google’s Privacy Policy, please refer to this <a href="https://policies.google.com/privacy">link</a>.
+By using our Maps API Implementation, you agree to be bound by Google’s Terms of Service.       
+            </p>
+
+            <br /><p id="privacy-expire" style={{fontSize: 24}}><span className="section-heading font-weight-bold">
+            6. HOW LONG DO WE KEEP YOUR INFORMATION?  
+            </span></p>
+
+            <p><strong><em>In Short:</em></strong> <em>We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law.</em>
+            <br />We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting or other legal requirements). No purpose in this policy will require us keeping your personal information for longer than the period of time in which users have an account with us.  
+            <br />When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize it, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.   
+            </p>
+
+            <br /><p id="privacy-security" style={{fontSize: 24}}><span className="section-heading font-weight-bold">
+            7. HOW DO WE KEEP YOUR INFORMATION SAFE?   
+            </span></p>
+
+            <p><strong><em>In Short:</em></strong> <em>We aim to protect your personal information through a system of organizational and technical security measures.</em>
+            <br />We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process. However, please also remember that we cannot guarantee that the internet itself is 100% secure. Although we will do our best to protect your personal information, transmission of personal information to and from our Services or Apps is at your own risk. You should only access the services within a secure environment.
+            </p>
+
+            <br /><p id="privacy-rights" style={{fontSize: 24}}><span className="section-heading font-weight-bold">
+            8. WHAT ARE YOUR PRIVACY RIGHTS?  
+            </span></p>
+
+            <p><strong><em>In Short:</em></strong> <em>You may review, change, or terminate your account at any time.</em>
+            <br />If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: <a href="http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm">http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm</a>. 
+            <br /><br />
+            <b>Account Information</b>
+            <br />If you would at any time like to review or change the information in your account or terminate your account, you can: 
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;■  Log into your account settings and update your user account.  
+            <br />Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, some information may be retained in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our Terms of Use and/or comply with legal requirements. 
+            <br /><strong><u>Cookies and similar technologies</u></strong>: Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services or Apps. To opt-out of interest-based advertising by advertisers on our Services or Apps visit <a href="http://www.aboutads.info/choices/">http://www.aboutads.info/choices/</a>.
+            <br /><strong><u>Opting out of email marketing</u></strong>: You can unsubscribe from our marketing email list at any time by clicking on the unsubscribe link in the emails that we send or by contacting us using the details provided below. You will then be removed from the marketing email list – however, we will still need to send you service-related emails that are necessary for the administration and use of your account. To otherwise opt-out, you may: 
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;■  Access your account settings and update preferences. 
+            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;■  Note your preferences when you register an account with the site.
+            </p>
+
+            <br /><p id="privacy-controls" style={{fontSize: 24}}><span className="section-heading font-weight-bold">
+            9. CONTROLS FOR DO-NOT-TRACK FEATURES  
+            </span></p>
+
+            <p>
+            Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. No uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.
+            </p>
+
+            <br /><p id="privacy-ca" style={{fontSize: 24}}><span className="section-heading font-weight-bold">
+            10. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?  
+            </span></p>
+
+            <p><strong><em>In Short:</em></strong> <em>Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information.</em>
+            <br />California Civil Code Section 1798.83, also known as the “Shine The Light” law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below. 
+            <br />If you are under 18 years of age, reside in California, and have a registered account with the Services or Apps, you have the right to request removal of unwanted data that you publicly post on the Services or Apps. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Services or Apps, but please be aware that the data may not be completely or comprehensively removed from our systems.
+            </p>
+
+            <br /><p id="privacy-updates" style={{fontSize: 24}}><span className="section-heading font-weight-bold">
+            11. DO WE MAKE UPDATES TO THIS POLICY?  
+            </span></p>
+
+            <p><strong><em>In Short:</em></strong> <em>Yes, we will update this policy as necessary to stay compliant with relevant laws.</em>
+            <br />We may update this privacy notice from time to time. The updated version will be indicated by an updated “Revised” date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.
+            </p>
+
+            <br /><p id="privacy-contact" style={{fontSize: 24}}><span className="section-heading font-weight-bold">
+            12. HOW CAN YOU CONTACT US ABOUT THIS POLICY?  
+            </span></p>
+
+            <p>
+            If you have questions or comments about this policy, you may email us at <a href="mailto:privacy@plebiant.com">privacy@plebiant.com</a> or by post to:
+            <br />
+            <br />Plebiant LLC    
+            <br />3511 SE J ST 
+            <br />STE 9 #1003 
+            <br />Bentonville, AR 72712    
+            <br />United States               
+            </p>
+
+            <br /><p id="privacy-share" className="text-center" style={{fontSize: 28}}><span className="section-heading font-weight-bold">
+            HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
+            </span></p>            
+
+            <p>
+            Based on the laws of some countries, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please submit a request form by mailing us <a href="mailto:privacy@plebiant.com">here</a>. We will respond to your request within 30 days.
+            </p>  
           </div>
         </div>
       </div>
