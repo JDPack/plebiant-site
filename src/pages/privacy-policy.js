@@ -24,7 +24,7 @@ const PrivacyPolicyPage = () => (
             <br />
             <br />
             <span>
-            Thank you for choosing to be part of our community at Plebiant LLC (“<b>Company”</b>, “<b>we</b>”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our notice, or our practices with regards to your personal information, please contact us at <a href="mailto:privacy@plebiant.com">privacy@plebiant.com</a>. 
+            Thank you for choosing to be part of our community at Plebiant LLC (“<b>Company”</b>, “<b>we</b>”, “<b>us</b>”, or “<b>our</b>”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our notice, or our practices with regards to your personal information, please contact us at <a href="mailto:privacy@plebiant.com">privacy@plebiant.com</a>. 
 
 When you visit our website plebiant.com, mobile games created by Plebiant LLC, and use any of our services, you trust us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Sites or Apps and our services. 
 
@@ -163,7 +163,7 @@ If you use our Apps, we may also collect the following information:</em></p>
             </span></p>
 
             <p><strong><em>In Short:</em></strong> <em>Yes, we may use Google Maps or other geolocation services for the purpose of providing a better mobile gaming experience.</em>
-            <br />This website, mobile application, or Facebook application uses geolocation services such as Google Maps APIs. You may find the Google Maps APIs Terms of Service <a href="https://developers.google.com/maps/terms">here</a>. To better understand Google’s Privacy Policy, please refer to this <a href="https://policies.google.com/privacy">link</a>.
+            <br />You may find the Google Maps APIs Terms of Service <a href="https://developers.google.com/maps/terms">here</a>. To better understand Google’s Privacy Policy, please refer to this <a href="https://policies.google.com/privacy">link</a>.
 By using our Maps API Implementation, you agree to be bound by Google’s Terms of Service.       
             </p>
 

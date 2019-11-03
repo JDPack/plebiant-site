@@ -3,20 +3,18 @@ import Footer from '../components/Footer';
 import Layout from '../components/Layout';
 import { Link } from 'gatsby';
 
+import demo1 from '../assets/images/logo_black.png';
+
 const IndexPage = () => (
   <Layout>
-    <section className="cta">
-      <div className="cta-content">
-        <div className="container">
-          <h2>
-            404 Page not found
+    <section className="">
+        <div className="container vh-100">
+        <img src={demo1} style={{width: '25vh'}} className="img-fluid mx-auto d-block" alt="" />
+          <h2 className="text-center">
+            Oh No! No games here :(
             <br />
-            <Link className="btn btn-outline btn-xl" to="/">
-              Go back
-            </Link>
           </h2>
         </div>
-      </div>
       <div className="overlay"></div>
     </section>
 

@@ -56,7 +56,7 @@ export default class Header extends Component {
             aria-label="Toggle navigation"
           >
             Menu
-            <i className="fas fa-bars"></i>
+            <i className="fas fa-bars mx-1"></i>
           </button>
 
           <div
@@ -64,6 +64,17 @@ export default class Header extends Component {
             id="navbarResponsive"
           >
             <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <Scroll
+                onClick={_ => this.toggleMenu(!openMenu)}
+                type="id"
+                element="home"
+              >
+                <a className="nav-link" href="#home">
+                  Home
+                </a>
+              </Scroll>
+            </li>
             <li className="nav-item">
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
@@ -97,7 +108,7 @@ export default class Header extends Component {
                   </a>
                 </Scroll>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
@@ -107,8 +118,8 @@ export default class Header extends Component {
                     Features
                   </a>
                 </Scroll>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
@@ -118,7 +129,7 @@ export default class Header extends Component {
                     Contact
                   </a>
                 </Scroll>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

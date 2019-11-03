@@ -16,16 +16,21 @@ import FowlFlowIcon from '../assets/games/fowl-flow/fowl-flow-icon.png';
 import MeteorMazeIcon from '../assets/games/meteor-maze/meteor-maze-icon.png';
 import TrashyPawsIcon from '../assets/games/trashy-paws/trashy-paws-icon.png';
 
+import LoganProfile from '../assets/images/profilepic_logan.png';
+import MattProfile from '../assets/images/profilepic_matt.jpeg';
+import JDProfile from '../assets/images/profilepic_jd.png';
+import AlexandraProfile from '../assets/images/profilepic_alexandra.jpeg';
+
 
 const IndexPage = () => (
   <Layout>
     <Header />
 
-    <header className="masthead">
+    <header className="masthead" id="home">
       <div className="container vh-100">
         <div className="row h-100">
           <div className="col-md-12 my-auto">
-            <img src={demo1} className="img-fluid w-25 mx-auto d-block" alt="" />
+            <img src={demo1} style={{width: '25vh'}} className="img-fluid mx-auto d-block" alt="" />
             <h1 className="section-heading text-center font-weight-bold">
               PLEBIANT STUDIOS
             </h1>
@@ -38,12 +43,12 @@ const IndexPage = () => (
     <section className="about text-center" id="about">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-12 mx-auto">
+          <div className="col-lg-8 mx-auto">
             <h2 className="section-heading">
               About Us
             </h2>
             <p>
-              We are a small team of developers working on games that are both interesting and fun to play. 
+              We are a small studio of developers and designers that love making games. Our goal is to build fun, exciting games that are both challenging and enjoyable!
             </p>
           </div>
         </div>
@@ -59,44 +64,44 @@ const IndexPage = () => (
         <div className="row my-4">
           <div className="col-lg-12">
               <div className="row">
-                <div className="col-lg-6">
-                  <div className="feature-item">
-                    <i class="fas fa-user-circle fa-9x mx-auto d-block my-2 text-center"></i>
+                <div className="col-lg-6 my-4">
+                  <div className="feature-item text-center">
+                    <img className="profile-icon" src={LoganProfile} />
                     <h3 class="text-center">Logan Ames</h3>
                     <h5 class="text-center text-muted">Cofounder, Developer</h5>
-                    <p className="text-muted">
-                      Bio here
-                    </p>
+                    {/* <p className="text-muted">
+                      "doing the needfull..."
+                    </p> */}
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <div className="feature-item">
-                    <i class="fas fa-user-circle fa-9x mx-auto d-block my-2 text-center"></i>
+                <div className="col-lg-6 my-4">
+                  <div className="feature-item text-center">
+                  <img className="profile-icon" src={MattProfile} />
                     <h3 class="text-center">Matt McClelland</h3>
                     <h5 class="text-center text-muted">Cofounder, Developer</h5>
-                    <p className="text-muted">
+                    {/* <p className="text-muted">
                       Bio here
-                    </p>
+                    </p> */}
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <div className="feature-item">
-                    <i class="fas fa-user-circle fa-9x mx-auto d-block my-2 text-center"></i>
+                <div className="col-lg-6 my-4">
+                  <div className="feature-item text-center">
+                    <img className="profile-icon" src={JDProfile} />
                     <h3 class="text-center">JD Pack</h3>
                     <h5 class="text-center text-muted">Cofounder, Developer</h5>
-                    <p className="text-muted">
+                    {/* <p className="text-muted">
                       Bio here
-                    </p>
+                    </p> */}
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <div className="feature-item">
-                    <i class="fas fa-user-circle fa-9x mx-auto d-block my-2 text-center"></i>
+                <div className="col-lg-6 my-4">
+                  <div className="feature-item text-center">
+                    <img className="profile-icon" src={AlexandraProfile} />
                     <h3 class="text-center">Alexandra Ames</h3>
                     <h5 class="text-center text-muted">Cofounder, Graphic Designer</h5>
-                    <p className="text-muted">
+                    {/* <p className="text-muted">
                       Bio here
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -211,20 +216,14 @@ const IndexPage = () => (
       <div className="overlay"></div>
     </section> */}
 
-    <section className="contact" id="contact">
+    {/* <section className="contact" id="contact">
       <div className="container">
       <div className="section-heading text-center text-light">
           <h2>Find Us On</h2>
-        {/* <h2>
-          We&nbsp;
-          <i className="fas fa-heart"></i>
-          &nbsp;new friends!
-        </h2> */}
-        {/* <Social /> */}
         <Social />
       </div>
       </div>
-    </section>
+    </section> */}
 
     <Footer />
 
